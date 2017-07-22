@@ -1,0 +1,16 @@
+Windows 10 Device Guard Bypasses
+(c) 2017 James Forshaw
+
+This solution contains some of my UMCI/Device Guard bypasses. They're
+are designed to allow you to analyze a system, such as Windows 10 S
+which comes pre-configured with a restrictive UMCI policy.
+
+CreateAddInIpcData:
+
+Tested on Windows 10 15063.483 with .NET 4.7.
+
+This is an issue with the exposed .NET Remoting IPC channel in AddInProcess.exe
+(and AddInProcess32.exe) on .NET v4+. 
+
+See my blog post (https://tyranidslair.blogspot.com/2017/07/dg-on-windows-10-s-executing-arbitrary.html)
+for more information about how to use this bypass code.

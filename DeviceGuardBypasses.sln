@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{4E6CEEA1-F266-401C-B832-F91432D46F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAddInIpcData", "CreateAddInIpcData\CreateAddInIpcData.csproj", "{D85E3601-0421-4EFA-A479-F3370C0498FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleAsm", "ExampleAsm\ExampleAsm.csproj", "{F318466D-D310-49AD-A967-67EFBBA29898}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E6CEEA1-F266-401C-B832-F91432D46F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6CEEA1-F266-401C-B832-F91432D46F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6CEEA1-F266-401C-B832-F91432D46F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6CEEA1-F266-401C-B832-F91432D46F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85E3601-0421-4EFA-A479-F3370C0498FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85E3601-0421-4EFA-A479-F3370C0498FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85E3601-0421-4EFA-A479-F3370C0498FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85E3601-0421-4EFA-A479-F3370C0498FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F318466D-D310-49AD-A967-67EFBBA29898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F318466D-D310-49AD-A967-67EFBBA29898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F318466D-D310-49AD-A967-67EFBBA29898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F318466D-D310-49AD-A967-67EFBBA29898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
