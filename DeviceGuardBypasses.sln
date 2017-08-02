@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAddInIpcData", "Creat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleAsm", "ExampleAsm\ExampleAsm.csproj", "{F318466D-D310-49AD-A967-67EFBBA29898}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap", "Bootstrap\Bootstrap.csproj", "{3705800F-1424-465B-937D-586E3A622A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunPowershell", "RunPowershell\RunPowershell.csproj", "{1E6E9B03-DD5F-4047-B386-AF7A7904F884}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F318466D-D310-49AD-A967-67EFBBA29898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F318466D-D310-49AD-A967-67EFBBA29898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F318466D-D310-49AD-A967-67EFBBA29898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3705800F-1424-465B-937D-586E3A622A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3705800F-1424-465B-937D-586E3A622A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3705800F-1424-465B-937D-586E3A622A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3705800F-1424-465B-937D-586E3A622A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6E9B03-DD5F-4047-B386-AF7A7904F884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6E9B03-DD5F-4047-B386-AF7A7904F884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6E9B03-DD5F-4047-B386-AF7A7904F884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6E9B03-DD5F-4047-B386-AF7A7904F884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
